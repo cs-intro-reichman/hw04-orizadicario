@@ -49,7 +49,7 @@ public class MyString {
         contains=false;
     } else if(index>=0){
         for(int j=0; j<str2.length(); j++){
-            if(str1.charAt(j)!=str2.charAt(j)){
+            if(str1.charAt(index+j)!=str2.charAt(j)){
                 contains=false;
                 break;
             } else {
